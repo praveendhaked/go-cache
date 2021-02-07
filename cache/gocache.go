@@ -457,7 +457,7 @@ func getHeightDiff(node *costNode) int {
 		return 0
 	}
 
-	return height(node.left)-height(node.left)
+	return height(node.left)-height(node.right)
 }
 
 // Insert into cost tree
