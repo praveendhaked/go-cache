@@ -1,4 +1,4 @@
-# MegaCache
+# Go-Cache
 
 A caching library written in `Golang`. This library uses cost based eviction strategy, where cost function for each entry will be provided by library user.
 
